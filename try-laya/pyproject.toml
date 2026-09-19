@@ -1,0 +1,9 @@
+[project]
+name = "try-laya"
+version = "0.1.0"
+description = "Trying out Laya, a local System 1 model from Hugging Face Hub"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "laya>=0.3.3",
+]
