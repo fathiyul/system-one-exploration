@@ -29,8 +29,8 @@ Sends a sample support message to the Jev model and asks it typed questions (urg
 Python ports of the TS examples from [OpenRouter's Jev extract lab](https://openrouter.ai/labs/jev/extract). Each one posts a document to the Jev model and extracts structured fields:
 
 ```sh
-uv run agreement.py    # master services agreement
-uv run invoice.py      # invoice
-uv run lease.py        # commercial lease
-uv run offer-letter.py # offer letter
+uv run extraction/agreement.py    # master services agreement
+uv run extraction/invoice.py      # invoice
+uv run extraction/lease.py        # commercial lease
+uv run extraction/offer-letter.py # offer letter
 ```
