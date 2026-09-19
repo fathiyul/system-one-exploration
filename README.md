@@ -1,6 +1,6 @@
-# Jevploration
+# System One Exploration
 
-Playground for trying out Jev-like models (System 1: fast, intuitive, answers typed questions) from various repos and APIs.
+Playground for trying out System 1–style models (fast, intuitive, answer typed questions) from various repos and APIs.
 
 Each subfolder is its own Python project (managed with uv):
 
@@ -14,15 +14,4 @@ To run a project:
 ```sh
 cd <folder>
 uv run main.py
-```
-
-### Extraction examples (`jev-openrouter`)
-
-Python ports of the TS examples from [OpenRouter's Jev extract lab](https://openrouter.ai/labs/jev/extract). Each one posts a document to the Jev model and extracts structured fields:
-
-```sh
-uv run agreement.py    # master services agreement
-uv run invoice.py      # invoice
-uv run lease.py        # commercial lease
-uv run offer-letter.py # offer letter
 ```
