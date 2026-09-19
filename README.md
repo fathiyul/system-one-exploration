@@ -8,10 +8,10 @@ The name comes from Daniel Kahneman's *Thinking, Fast and Slow*: the human mind 
 
 Each subfolder is its own Python project (managed with uv):
 
-| Folder | What it tries |
-| --- | --- |
-| `jev-openrouter` | Jev model via OpenRouter's decisions API |
-| `try-laya` | [Laya](https://github.com/LayaAI/laya), a local model from the Hugging Face Hub |
+| Folder | What it tries | Local / API |
+| --- | --- | --- |
+| `jev-openrouter` | Jev model via OpenRouter's decisions API | API |
+| `try-laya` | [Laya](https://github.com/LayaAI/laya), a local model from the Hugging Face Hub | Local |
 
 To run a project:
 
